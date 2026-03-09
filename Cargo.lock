@@ -3792,7 +3792,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-api"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "axum",
@@ -3820,7 +3820,7 @@ dependencies = [
  "tokio",
  "tokio-stream",
  "tokio-test",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tower",
  "tower-http",
  "tracing",
@@ -3829,7 +3829,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-channels"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "axum",
@@ -3861,7 +3861,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-cli"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "clap",
  "clap_complete",
@@ -3879,7 +3879,7 @@ dependencies = [
  "serde",
  "serde_json",
  "tokio",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "tracing-subscriber",
  "uuid",
@@ -3888,7 +3888,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-desktop"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "axum",
  "open",
@@ -3907,14 +3907,14 @@ dependencies = [
  "tauri-plugin-single-instance",
  "tauri-plugin-updater",
  "tokio",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "tracing-subscriber",
 ]
 
 [[package]]
 name = "openfang-extensions"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "aes-gcm",
  "argon2",
@@ -3933,7 +3933,7 @@ dependencies = [
  "thiserror 2.0.18",
  "tokio",
  "tokio-test",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "url",
  "uuid",
@@ -3942,7 +3942,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-hands"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "chrono",
  "dashmap",
@@ -3952,14 +3952,14 @@ dependencies = [
  "tempfile",
  "thiserror 2.0.18",
  "tokio-test",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "uuid",
 ]
 
 [[package]]
 name = "openfang-kernel"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "chrono",
@@ -3988,7 +3988,7 @@ dependencies = [
  "thiserror 2.0.18",
  "tokio",
  "tokio-test",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "tracing-subscriber",
  "uuid",
@@ -3996,7 +3996,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-memory"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "chrono",
@@ -4015,7 +4015,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-migrate"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "chrono",
  "dirs 6.0.0",
@@ -4026,7 +4026,7 @@ dependencies = [
  "serde_yaml",
  "tempfile",
  "thiserror 2.0.18",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "uuid",
  "walkdir",
@@ -4034,7 +4034,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-runtime"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -4068,7 +4068,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-skills"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "chrono",
  "hex",
@@ -4082,7 +4082,7 @@ dependencies = [
  "thiserror 2.0.18",
  "tokio",
  "tokio-test",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "tracing",
  "uuid",
  "walkdir",
@@ -4091,7 +4091,7 @@ dependencies = [
 
 [[package]]
 name = "openfang-types"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "chrono",
@@ -4104,13 +4104,13 @@ dependencies = [
  "serde_json",
  "sha2",
  "thiserror 2.0.18",
- "toml 0.8.2",
+ "toml 0.9.12+spec-1.1.0",
  "uuid",
 ]
 
 [[package]]
 name = "openfang-wire"
-version = "0.3.37"
+version = "0.3.38"
 dependencies = [
  "async-trait",
  "chrono",
@@ -8772,7 +8772,7 @@ checksum = "b9cc00251562a284751c9973bace760d86c0276c471b4be569fe6b068ee97a56"
 
 [[package]]
 name = "xtask"
-version = "0.3.37"
+version = "0.3.38"
 
 [[package]]
 name = "yoke"
